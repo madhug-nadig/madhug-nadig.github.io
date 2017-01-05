@@ -56,6 +56,11 @@ strong{
   font-weight: 200 !important;
 }
 
+.opts{
+	text-align:center;
+}
+
+
 .sub-heading {
   font-size: 2.5rem;
 }
@@ -150,6 +155,22 @@ strong{
   box-shadow: none;
   background: #fff !important;
   color: #E34B48;
+}
+
+.whit {
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  font-weight: 300;
+  font-size: 1.25rem;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  color: E34B48;
+}
+.whit:hover {
+  box-shadow: none;
+  background: #000 !important;
+  color: #fff;
 }
 
 .design {
