@@ -39,6 +39,7 @@ strong{
 .header {
   margin-top: 4em;
 }
+
 .header:after {
   content: '';
   display: block;
@@ -117,7 +118,19 @@ strong{
   top:30%;
   margin-top: 10%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 600px) {
+	.content {
+		margin-top: 150px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.content {
+		margin-top: 80px;
+	}
 }
 
 .grad {
