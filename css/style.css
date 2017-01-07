@@ -285,9 +285,14 @@ footer .footer-content {
 
 
 @media screen and (max-width: 800px) {
+
 	.footer {
 		margin-top: 150px;
 	}
+
+	footer .footer-content {
+		top: 15em !important;
+  }
 }
 
 
