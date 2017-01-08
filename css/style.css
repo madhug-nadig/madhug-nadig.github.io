@@ -284,7 +284,7 @@ footer .footer-content {
 }
 
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
 	footer {
 		margin-top: 250px!important;
 	}
