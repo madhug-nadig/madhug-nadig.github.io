@@ -78,9 +78,15 @@ strong{
   background-color:rgba(0, 0,0,0.66);
   border-bottom: 0.4px solid #000;
 }
+
 @media (max-width: 600px) {
   .nav {
     text-align: center;
+  }
+  
+  .nav img{
+	  width:100px;
+	  height:50px;
   }
 }
 .nav li {
