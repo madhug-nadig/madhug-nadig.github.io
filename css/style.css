@@ -59,8 +59,12 @@ strong{
 
 .opts{
 	text-align:center;
-	margin-top:8%;
+	margin-top:7%;
 	z-index:20000;
+}
+
+.btn-large{
+	height: 40px;
 }
 
 
@@ -172,7 +176,7 @@ strong{
   box-shadow: none;
   border: 1px solid rgba(255, 255, 255, 0.65);
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1rem;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
 }
